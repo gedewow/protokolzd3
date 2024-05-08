@@ -59,6 +59,7 @@ body {
 
 
 
+
 div {
     margin: 10px;
     font-size: 20px;
@@ -165,6 +166,15 @@ p {
   .main {
     padding: 1%;
   }
+
+  div {
+    
+      margin: 1px;
+      font-size: 20px;
+  
+  }
 }
+
+
   
  

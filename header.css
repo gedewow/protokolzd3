@@ -185,13 +185,25 @@ margin-left: 10%;
 
   @media only screen and (max-width: 1100px) {
     .header {
-      width: 100%;
+     
+      align-items: flex-start;
       height: auto;
+    }
+  
+    .text_hr {
+      margin-bottom: 10px;
     }
   
     .settings-container {
       margin-left: 0;
+      width: 100%;
     }
+    .header {
+      width: 100%;
+      height: auto;
+    }
+  
+ 
   
     #sidebar {
       width: 100%;
@@ -199,10 +211,28 @@ margin-left: 10%;
     }
   
     .btn {
-      width: 100%;
+    
       height: auto;
       margin-bottom: 10px;
     }
   
+      #sidebar {
+        
+        align-items: flex-start;
+        height: auto;
+        width: 85%;
+      }
+    
+      .btn {
+        width: 80%;
+        margin-bottom: 10px;
+      }
 
+      .text_hr_vp {
+        display: flex;
+        align-items: center;
+        font-size: 10px; /* Изменяем размер шрифта на относительный */
+      
+      }
+    
   }
